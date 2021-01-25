@@ -1,12 +1,8 @@
 Configure miss: windres
 Configure miss: gitlog-to-changelog
 Configure miss: whether mlock is broken
-Configure miss: x86_64-generic-linux-gnu-libassuan-config
 Configure miss: byte typedef
 Configure miss: ncurses include dir
+Configure miss: 32-bit host C ABI
+Configure miss: efl
 Configure miss: QtCore >= 4.6.0 QtGui >= 4.6.0
-Configure miss: main.cxx:244:24: warning: format not a string literal and no format arguments [-Wformat-security]
-
-Configure miss: main.cxx:249:70: warning: format not a string literal and no format arguments [-Wformat-security]
-
-Configure miss: main.cxx:259:65: warning: format not a string literal and no format arguments [-Wformat-security]
