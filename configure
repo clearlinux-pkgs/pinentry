@@ -1,1 +1,4 @@
---disable-pinentry-gtk2 --disable-pinentry-qt5 --enable-pinentry-gnome3 --enable-pinentry-curses
+--disable-pinentry-gtk2
+--disable-pinentry-qt5
+--enable-pinentry-gnome3
+--enable-pinentry-curses

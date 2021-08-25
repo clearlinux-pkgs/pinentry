@@ -1,8 +1,8 @@
-Configure miss: windres
-Configure miss: gitlog-to-changelog
-Configure miss: whether mlock is broken
-Configure miss: byte typedef
-Configure miss: ncurses include dir
-Configure miss: 32-bit host C ABI
-Configure miss: efl
+Configure miss: KF5WaylandClient >= 5.60
 Configure miss: QtCore >= 4.6.0 QtGui >= 4.6.0
+Configure miss: byte typedef
+Configure miss: elementary >= 1.18,ecore-x
+Configure miss: gitlog-to-changelog
+Configure miss: ncurses include dir
+Configure miss: whether mlock is broken
+Configure miss: windres
