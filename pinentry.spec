@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x528897B826403ADA
 #
 Name     : pinentry
-Version  : 1.2.0
-Release  : 29
-URL      : https://gnupg.org/ftp/gcrypt/pinentry/pinentry-1.2.0.tar.bz2
-Source0  : https://gnupg.org/ftp/gcrypt/pinentry/pinentry-1.2.0.tar.bz2
-Source1  : https://gnupg.org/ftp/gcrypt/pinentry/pinentry-1.2.0.tar.bz2.sig
+Version  : 1.2.1
+Release  : 30
+URL      : https://gnupg.org/ftp/gcrypt/pinentry/pinentry-1.2.1.tar.bz2
+Source0  : https://gnupg.org/ftp/gcrypt/pinentry/pinentry-1.2.1.tar.bz2
+Source1  : https://gnupg.org/ftp/gcrypt/pinentry/pinentry-1.2.1.tar.bz2.sig
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-2.0
@@ -70,8 +70,8 @@ license components for the pinentry package.
 
 
 %prep
-%setup -q -n pinentry-1.2.0
-cd %{_builddir}/pinentry-1.2.0
+%setup -q -n pinentry-1.2.1
+cd %{_builddir}/pinentry-1.2.1
 %patch1 -p1
 
 %build
@@ -79,7 +79,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1629918313
+export SOURCE_DATE_EPOCH=1661353933
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
@@ -99,10 +99,10 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make %{?_smp_mflags} check || :
 
 %install
-export SOURCE_DATE_EPOCH=1629918313
+export SOURCE_DATE_EPOCH=1661353933
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/pinentry
-cp %{_builddir}/pinentry-1.2.0/COPYING %{buildroot}/usr/share/package-licenses/pinentry/2d29c273fda30310211bbf6a24127d589be09b6c
+cp %{_builddir}/pinentry-%{version}/COPYING %{buildroot}/usr/share/package-licenses/pinentry/2d29c273fda30310211bbf6a24127d589be09b6c
 %make_install
 ## install_append content
 install -m 0755 pinentry-wrapper %{buildroot}/usr/bin/pinentry

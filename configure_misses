@@ -1,8 +1,9 @@
 Configure miss: KF5WaylandClient >= 5.60
 Configure miss: QtCore >= 4.6.0 QtGui >= 4.6.0
-Configure miss: byte typedef
+Configure miss: byte
 Configure miss: elementary >= 1.18,ecore-x
 Configure miss: gitlog-to-changelog
 Configure miss: ncurses include dir
+Configure miss: u64
 Configure miss: whether mlock is broken
 Configure miss: windres
