@@ -1,9 +1,26 @@
+Configure miss: 32-bit host C ABI
+Configure miss: 32-bit host C ABI
+Configure miss: KF5WaylandClient >= 5.60
 Configure miss: KF5WaylandClient >= 5.60
 Configure miss: QtCore >= 4.6.0 QtGui >= 4.6.0
+Configure miss: QtCore >= 4.6.0 QtGui >= 4.6.0
+Configure miss: byte
 Configure miss: byte
 Configure miss: elementary >= 1.18,ecore-x
+Configure miss: elementary >= 1.18,ecore-x
+Configure miss: g++ option to enable C++11 features
+Configure miss: g++ option to enable C++11 features
+Configure miss: gitlog-to-changelog
 Configure miss: gitlog-to-changelog
 Configure miss: ncurses include dir
+Configure miss: ncurses include dir
+Configure miss: u64
 Configure miss: u64
 Configure miss: whether mlock is broken
+Configure miss: whether mlock is broken
 Configure miss: windres
+Configure miss: windres
+Configure miss: x86_64-generic-linux-gnu-moc
+Configure miss: x86_64-generic-linux-gnu-moc
+Configure miss: x86_64-generic-linux-gnu-rcc
+Configure miss: x86_64-generic-linux-gnu-rcc
